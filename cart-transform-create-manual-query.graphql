@@ -1,0 +1,12 @@
+mutation {
+  cartTransformCreate(functionId: "9cbf5b9e-57b0-4d1c-9545-c8e5c4e55ee4") {
+    cartTransform {
+      id
+      functionId
+    }
+    userErrors {
+      field
+      message
+    }
+  }
+}
